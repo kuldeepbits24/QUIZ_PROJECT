@@ -1,0 +1,4 @@
+have to create a quiz app where student and teacher can login. 
+
+student should be able to see the result of the quiz 
+and teaher should be able to create new quiz and see the results. 
