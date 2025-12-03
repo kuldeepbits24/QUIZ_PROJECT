@@ -14,6 +14,7 @@ public class Question {
         this.opt2 = opt2;
         this.opt3 = opt3;
         this.opt4 = opt4;
+        this.answer = answer; 
     }
     public int getId() {
         return id;
