@@ -3,14 +3,15 @@ import java.util.Scanner;
 public class QuestionService {
 
 
-    Question[] question = new Question[5];  // we are creating an array of size 5; 
-    String selection[] = new String[5]; 
+    Question[] question = new Question[6];  // we are creating an array of size 5; 
+    String selection[] = new String[6]; 
     public QuestionService(){
               question[0] = new Question(1, "What is capital of India ? ", "Mumbai", "Delhi", "Goa","Mathura", "Delhi"); 
               question[1] = new Question(2, "What is size of Byte? ", "2", "3", "4","8", "4"); 
               question[2] = new Question(3, "What is size of String ? ", "1", "2", "3","4", "2"); 
-              question[3] = new Question(4, "What is capital of Bit ? ", "1", "2", "3","4", "1"); 
-              question[4] = new Question(5, "What is capital of Boolean ? ", "1", "2", "3","4", "1"); 
+              question[3] = new Question(4, "What is size of Bit ? ", "1", "2", "3","4", "1"); 
+              question[4] = new Question(5, "What is size of Boolean ? ", "1", "2", "3","4", "1"); 
+              question[5] = new Question(5, "Total Number of Alphabets are ? ", "24", "25", "26","27", "26"); 
                          
     }
     public void displayQuestion() {
