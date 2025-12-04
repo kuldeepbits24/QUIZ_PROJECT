@@ -14,7 +14,7 @@ public class QuestionService {
                          
     }
     public void displayQuestion() {
-        int i =0; 
+        int i = 0; 
         for(Question q : question) {
         System.out.println("Question No.:" + q.getId());
         System.out.println(q.getQuestion());
@@ -33,7 +33,7 @@ public class QuestionService {
         }
 
     }
-
+ 
     public void printScore(){
         int score = 0;
         for(int j =0;j< question.length;j++) 
@@ -46,6 +46,6 @@ public class QuestionService {
                 score++; 
             }
         }
-        System.out.println("Your score is:" + score); 
+        System.out.println("Your score is: " + score); 
     }
 }
